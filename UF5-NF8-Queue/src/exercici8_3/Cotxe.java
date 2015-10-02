@@ -68,7 +68,10 @@ public class Cotxe implements Comparable<Cotxe>  {
 
 	@Override
 	public int compareTo(Cotxe o) {
-		return (this.getCilindrada() < o.getCilindrada())? -1: 1;
+		
+		return (this.getCilindrada()==o.getCilindrada()? 0: ((this.getCilindrada() < o.getCilindrada())? -1: 1));
+		
+		
 	
 	}
 }

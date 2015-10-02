@@ -26,7 +26,7 @@ public class Main {
 		System.out.println("******** Verificando que se haya agregador \n");
 		imprimir(listCars);
 
-		System.out.println("¿Admite objeto duplicados: \n" + "si");
+		System.out.println("ï¿½Admite objeto duplicados: \n" + "si");
 
 		System.out.println("******** Agregando al inicio \n");
 		System.out.println(listCars.get(0).toString());
@@ -39,14 +39,7 @@ public class Main {
 
 		if (listCars.contains(seat)) { // comrpuebo que el objeto este en la
 										// lista
-			listCars.set(listCars.indexOf(seat), new Cotxe("Seat", "Mii", 3, 1000)); // Si
-																						// lo
-																						// encuentra
-																						// lo
-																						// cambia
-																						// por
-																						// el
-																						// anterior
+			listCars.set(listCars.indexOf(seat), new Cotxe("Seat", "Mii", 3, 1000)); // Si lo encuentra cambia por el anterior
 			System.out.println("******** Comprobando que lo haya sustituido \n");
 			imprimir(listCars);
 		} else {
@@ -55,9 +48,12 @@ public class Main {
 
 		System.out.println("*********** Eliminando el primer elemento con nombreLista.removeFirst()");
 		listCars.removeFirst();
+		imprimir(listCars);
 
 		System.out.println("*********** La posicion del coche Hyundai es: "
 				+ ((listCars.contains(hyundai)) ? listCars.indexOf(hyundai) : -1));
+		
+		
 
 	}
 

@@ -87,15 +87,14 @@ public class Main {
 			System.out.println(cotxe.toString());
 		}
 	}
-	
-/*
- * 	Respon la següent pregunta (en un comentari al final del codi): Posa un exemple de la vida real
- * de cadascun dels dos tipus de cues (no necessàriament quan els objectes són models de cotxes!)
- * 
- *  
- *  LIFO : Un supermercado del stock de alimentos que se vayan a vencer
- *  FIFO
- */
 
+	/*
+	 * Respon la següent pregunta (en un comentari al final del codi): Posa un
+	 * exemple de la vida real de cadascun dels dos tipus de cues (no
+	 * necessàriament quan els objectes són models de cotxes!)
+	 * 
+	 * 
+	 * FIFO : Un supermercado del stock de alimentos que se vayan a vencer FIFO
+	 */
 
 }
